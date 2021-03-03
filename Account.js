@@ -4,7 +4,6 @@ const Bank = require('./Bank.js');
 class Account {
 
     //properties and fields 
-
     name; //string 
     moneyOwed; //number
     moneyOwing; //number 
@@ -19,8 +18,6 @@ class Account {
         this.moneyOwing = 0; 
         this.transactions = [];
     }
-
-    //methods 
 
     createDebt(money){
         this.moneyOwing += money; 

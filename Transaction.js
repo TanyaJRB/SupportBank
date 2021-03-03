@@ -1,4 +1,5 @@
-//require statements
+const Bank = require('./Bank.js');
+const Account = require('./Account.js');
 
 class Transaction{
     
